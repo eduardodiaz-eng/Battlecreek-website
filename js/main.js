@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
             form.reset();
             if (note) {
               note.textContent = "Thanks! Your request was sent — we'll be in touch soon.";
-              note.style.color = '#1b4b4f';
+              note.style.color = '#0d0d0d';
             }
           } else {
             throw new Error('Request failed');
