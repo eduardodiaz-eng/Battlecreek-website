@@ -1,7 +1,7 @@
 # Battle Creek Bathworks LLC — Website
 
 A simple, fast, static website for Battle Creek Bathworks LLC (bathroom & shower
-remodeling, Battle Creek, MI). Plain HTML/CSS/JS — no build step, no framework,
+remodeling, Pleasant Grove, UT). Plain HTML/CSS/JS — no build step, no framework,
 no server required.
 
 ## Project structure
@@ -33,9 +33,8 @@ Search `index.html` for these and swap in your real details:
 
 | Placeholder | Where | Replace with |
 |---|---|---|
-| `(269) 555-0142` | header, hero, contact section | your real phone number (keep the `tel:+1...` format in `href`) |
-| `info@battlecreekbathworks.com` | contact section, footer `mailto:` | your real email |
-| "Battle Creek, MI & Calhoun County" | contact section | your actual service area |
+| `(385) 269-9261` | header, hero, contact section, `js/main.js` | business line (Google Voice). Keep it in sync with the Google Business Profile (keep the `tel:+1...` format in `href`) |
+| `battlecreekbathworks@gmail.com` | contact section `mailto:` | business email |
 | Business hours | contact section | your real hours |
 | `YOUR_FORM_ID` in the `<form action="https://formspree.io/f/YOUR_FORM_ID">` | contact form | your real Formspree endpoint (see step 3) |
 

@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () {
           if (note) {
-            note.textContent = 'Something went wrong. Please call us instead at (269) 555-0142.';
+            note.textContent = 'Something went wrong. Please call us instead at (385) 269-9261.';
             note.style.color = '#b23b3b';
           }
         });
