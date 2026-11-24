@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.battlecreekbathworks.com/sitemap.xml
+Sitemap: https://eduardodiaz-eng.github.io/Battlecreek-website/sitemap.xml
