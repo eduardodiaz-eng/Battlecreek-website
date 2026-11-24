@@ -142,15 +142,9 @@ section { padding: 72px 0; }
   gap: 10px;
   flex-shrink: 0;
 }
-.logo-mark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--color-accent);
-  color: var(--color-primary-dark);
+.logo-badge {
+  width: 52px;
+  height: auto;
 }
 .logo-text {
   font-size: 0.95rem;
@@ -267,7 +261,12 @@ section { padding: 72px 0; }
 }
 
 .hero-art { display: flex; justify-content: center; }
-.hero-svg { width: 100%; max-width: 320px; }
+.hero-logo {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.55));
+}
 
 /* ---------- Services ---------- */
 .services-grid {
@@ -395,6 +394,8 @@ input:focus, select:focus, textarea:focus {
   align-items: center;
   gap: 20px;
 }
+.footer-brand { display: flex; align-items: center; gap: 16px; }
+.footer-logo { width: 72px; height: auto; flex-shrink: 0; }
 .footer-brand .logo-text { color: #fff; }
 .footer-brand p { color: var(--color-text-on-dark); font-size: 0.9rem; margin-top: 4px; }
 .footer-nav { display: flex; gap: 20px; font-weight: 600; font-size: 0.9rem; }
@@ -433,6 +434,8 @@ input:focus, select:focus, textarea:focus {
   .services-grid { grid-template-columns: 1fr; }
   .form-row-split { grid-template-columns: 1fr; }
   .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-logo { max-width: 200px; }
   .footer-inner { flex-direction: column; text-align: center; }
+  .footer-brand { flex-direction: column; gap: 10px; }
   .footer-nav { justify-content: center; }
 }
