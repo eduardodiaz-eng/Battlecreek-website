@@ -24,6 +24,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // Before/after slider
+  var slider = document.getElementById('ba-slider');
+  if (slider) {
+    var range = slider.querySelector('.ba-range');
+    var update = function () { slider.style.setProperty('--pos', range.value + '%'); };
+    range.addEventListener('input', update);
+    update();
+  }
+
   // Contact form submit handling (works with Formspree's AJAX endpoint)
   var form = document.getElementById('contact-form');
   var note = document.getElementById('form-note');
